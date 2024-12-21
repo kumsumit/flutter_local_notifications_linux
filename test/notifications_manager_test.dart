@@ -65,7 +65,7 @@ void main() {
       ).thenAnswer((_) async => platformInfo);
       when(
         mockStorage.forceReloadCache(),
-      ).thenAnswer((_) async{});
+      ).thenAnswer((_) async {});
       when(
         mockDbus.build(
           destination: 'org.freedesktop.Notifications',
