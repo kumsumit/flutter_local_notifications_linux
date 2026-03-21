@@ -565,11 +565,12 @@ packages:
   xdg_directories:
     dependency: "direct main"
     description:
-      name: xdg_directories
-      sha256: "7a3f37b05d989967cdddcbb571f1ea834867ae2faa29725fd085180e0883aa15"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
+      path: "."
+      ref: HEAD
+      resolved-ref: "410932cf9651a439aa3e2c2f21098cc61e6daa8a"
+      url: "https://github.com/kumsumit/xdg_directories.git"
+    source: git
+    version: "1.0.3"
   xml:
     dependency: transitive
     description:
