@@ -1,9 +1,9 @@
 name: flutter_local_notifications_linux
-publish_to: none
 description: Linux implementation of the flutter_local_notifications plugin
-version: 6.0.0
+version: 8.0.1-dev.1
 homepage: https://github.com/MaikuB/flutter_local_notifications/tree/master/flutter_local_notifications
 issue_tracker: https://github.com/MaikuB/flutter_local_notifications/issues
+publish_to: none
 
 flutter:
   plugin:
@@ -14,22 +14,22 @@ flutter:
 
 
 dependencies:
-  dbus: ^0.7.8
-  ffi: ^2.1.0
+  dbus: ^0.7.12
+  ffi: ^2.2.0
   flutter:
     sdk: flutter
-  flutter_local_notifications_platform_interface: 
+  flutter_local_notifications_platform_interface:
     git: https://github.com/kumsumit/flutter_local_notifications_platform_interface.git
-  path: ^1.9.0
-  xdg_directories: 
-    git: https://github.com/kumsumit/xdg_directories.git
+  path: ^1.9.1
+  xdg_directories: ">=0.2.0+1 <2.0.0"
 
 dev_dependencies:
-  build_runner: ^2.4.6
+  build_runner: ^2.13.1
   flutter_test:
     sdk: flutter
-  mockito: ^5.4.2
+  flutter_lints: ^6.0.0
+  mockito: ^5.6.3
 
 environment:
-  sdk: ">=3.7.0 <4.0.0"
-  flutter: ">=3.29.0"
+  sdk: ^3.11.1
+  flutter: ">=3.41.1"
