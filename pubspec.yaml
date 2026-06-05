@@ -14,7 +14,8 @@ flutter:
 
 
 dependencies:
-  dbus: ^0.7.12
+  dbus:
+    git: https://github.com/kumsumit/dbus.dart.git
   ffi: ^2.2.0
   flutter:
     sdk: flutter
@@ -25,12 +26,12 @@ dependencies:
     git: https://github.com/kumsumit/xdg_directories.git
 
 dev_dependencies:
-  build_runner: ^2.13.1
+  build_runner: ^2.15.0
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-  mockito: ^5.6.3
+  mockito: ^5.7.0
 
 environment:
-  sdk: ^3.11.1
-  flutter: ">=3.41.1"
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
